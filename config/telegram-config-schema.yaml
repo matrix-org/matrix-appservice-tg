@@ -9,3 +9,5 @@ properties:
     type: string
   matrix_admin_room:
     type: string
+  enable_metrics:
+    type: boolean
