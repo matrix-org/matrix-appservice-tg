@@ -1,5 +1,5 @@
 type: object
-requires: ["matrix_homeserver", "matrix_user_domain", "username_template"]
+requires: ["matrix_homeserver", "matrix_user_domain", "username_template", "auth_key_password"]
 properties:
   matrix_homeserver:
     type: string
@@ -8,6 +8,8 @@ properties:
   username_template:
     type: string
   matrix_admin_room:
+    type: string
+  auth_key_password:
     type: string
   enable_metrics:
     type: boolean
