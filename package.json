@@ -8,7 +8,7 @@
     "matrix-appservice-bridge": "matrix-org/matrix-appservice-bridge#ca40ff5",
     "matrix-js-sdk": "^0.5",
     "minimist": "^1.2",
-    "telegram.link": "0"
+    "@goodmind/telegram.link": "0"
   },
   "devDependencies": {},
   "scripts": {
