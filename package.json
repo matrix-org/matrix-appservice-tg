@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "matrix-appservice-bridge": "matrix-org/matrix-appservice-bridge#b6c12d0",
+    "matrix-appservice-bridge": "matrix-org/matrix-appservice-bridge#5c9b204",
     "matrix-js-sdk": "^0.5",
     "minimist": "^1.2",
     "@goodmind/telegram.link": "0"
