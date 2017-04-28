@@ -8,7 +8,7 @@
     "matrix-appservice-bridge": "matrix-org/matrix-appservice-bridge#5c9b204",
     "matrix-js-sdk": "^0.5",
     "minimist": "^1.2",
-    "telegram-mtproto": "^2.2"
+    "telegram-mtproto": "leonerd/telegram-mtproto#cf17f2b"
   },
   "devDependencies": {},
   "scripts": {
