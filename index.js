@@ -3,6 +3,10 @@ var AppServiceRegistration = require("matrix-appservice-bridge").AppServiceRegis
 
 var Main = require("./lib/Main");
 
+// TODO(paul) Workaround for prom-client 9 no longer doing this by default
+//   see also https://github.com/matrix-org/matrix-appservice-bridge/pull/58
+require("prom-client").collectDefaultMetrics();
+
 new Cli({
     registrationPath: "telegram-registration.yaml",
     bridgeConfig: {
