@@ -10,6 +10,7 @@ WORKDIR /app
 
 ADD hash-password.pl index.js package.json ./
 ADD lib ./lib
+ADD config ./config
 
 RUN npm install
 
