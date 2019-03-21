@@ -1,3 +1,12 @@
+# THIS PROJECT IS ON HOLD
+
+This project is not actively developed, maintained or supported at the moment. It is not recommended for production use.
+
+For a working Telegram bridge, please check out https://github.com/tulir/mautrix-telegram
+
+
+# ARCHIVED README
+
 Installation
 ------------
 
